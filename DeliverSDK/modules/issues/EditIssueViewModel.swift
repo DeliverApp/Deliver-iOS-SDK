@@ -68,7 +68,7 @@ class EditIssueViewModel: ObservableObject {
             try await api.report(issue: IssueAPI.CreateIssueDTO(title: self.issueTitle, description: self.description, criticality: "LOW"),
                                  fileURL: self.media)
             // Close the view after posting the issue.
-            self.close()
+            DispatchQueue.main.async { self.close() }
         }
     }
 }
