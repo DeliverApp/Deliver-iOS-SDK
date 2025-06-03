@@ -1,0 +1,74 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DeliverSDK -package-name deliversdk
+import AVFoundation
+import AVKit
+import Combine
+import Compression
+import CoreGraphics
+import DeveloperToolsSupport
+import Foundation
+import Foundation/*.Bundle*/
+import Foundation/*.ProcessInfo*/
+import Foundation/*.URL*/
+import Network
+import OSLog
+import ObjectiveC
+import Photos
+import QuickLook
+import ReplayKit
+import Swift
+import SwiftUI
+import UIKit
+import _AVKit_SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import zlib
+@_hasMissingDesignatedInitializers final public class Deliver {
+  public static func setup(appKey: Swift.String)
+  @objc deinit
+}
+
+
+
+
+
+
+@_hasMissingDesignatedInitializers final public class Logger {
+  public static var dateFormat: Swift.String
+  @discardableResult
+  final public class func addOutput(_ output: DeliverSDK.BaseOutput) -> Swift.Bool
+  @discardableResult
+  final public class func removeOutput(_ output: DeliverSDK.BaseOutput) -> Swift.Bool
+  final public class func debug(_ message: @autoclosure () -> Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  final public class func info(_ message: @autoclosure () -> Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  final public class func error(_ message: @autoclosure () -> Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  final public class func fault(_ message: @autoclosure () -> Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class BaseOutput : Swift.Hashable {
+  public var queue: Dispatch.DispatchQueue {
+    get
+  }
+  public var defaultDateFormatter: Foundation.DateFormatter {
+    get
+    set
+  }
+  public static func == (lhs: DeliverSDK.BaseOutput, rhs: DeliverSDK.BaseOutput) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  @objc deinit
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers final public class ConsoleOutput : DeliverSDK.BaseOutput {
+  public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers final public class DeliverLogOutput : DeliverSDK.BaseOutput {
+  public init()
+  @objc deinit
+}
+extension os.OSLogType : Swift.Codable {
+}

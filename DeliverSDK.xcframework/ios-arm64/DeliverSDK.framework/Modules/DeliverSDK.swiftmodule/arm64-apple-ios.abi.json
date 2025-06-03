@@ -1,0 +1,4052 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DeliverSDK",
+    "printedName": "DeliverSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Deliver",
+        "printedName": "Deliver",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(appKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10DeliverSDK0A0C5setup6appKeyySS_tFZ",
+            "mangledName": "$s10DeliverSDK0A0C5setup6appKeyySS_tFZ",
+            "moduleName": "DeliverSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10DeliverSDK0A0C",
+        "mangledName": "$s10DeliverSDK0A0C",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ReplayKit",
+        "printedName": "ReplayKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "QuickLook",
+        "printedName": "QuickLook",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Compression",
+        "printedName": "Compression",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "zlib",
+        "printedName": "zlib",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dateFormat",
+            "printedName": "dateFormat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DeliverSDK6LoggerC10dateFormatSSvpZ",
+            "mangledName": "$s10DeliverSDK6LoggerC10dateFormatSSvpZ",
+            "moduleName": "DeliverSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DeliverSDK6LoggerC10dateFormatSSvgZ",
+                "mangledName": "$s10DeliverSDK6LoggerC10dateFormatSSvgZ",
+                "moduleName": "DeliverSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DeliverSDK6LoggerC10dateFormatSSvsZ",
+                "mangledName": "$s10DeliverSDK6LoggerC10dateFormatSSvsZ",
+                "moduleName": "DeliverSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DeliverSDK6LoggerC10dateFormatSSvMZ",
+                "mangledName": "$s10DeliverSDK6LoggerC10dateFormatSSvMZ",
+                "moduleName": "DeliverSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "addOutput",
+            "printedName": "addOutput(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BaseOutput",
+                "printedName": "DeliverSDK.BaseOutput",
+                "usr": "s:10DeliverSDK10BaseOutputC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10DeliverSDK6LoggerC9addOutputySbAA04BaseE0CFZ",
+            "mangledName": "$s10DeliverSDK6LoggerC9addOutputySbAA04BaseE0CFZ",
+            "moduleName": "DeliverSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeOutput",
+            "printedName": "removeOutput(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BaseOutput",
+                "printedName": "DeliverSDK.BaseOutput",
+                "usr": "s:10DeliverSDK10BaseOutputC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10DeliverSDK6LoggerC12removeOutputySbAA04BaseE0CFZ",
+            "mangledName": "$s10DeliverSDK6LoggerC12removeOutputySbAA04BaseE0CFZ",
+            "moduleName": "DeliverSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:file:function:line:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10DeliverSDK6LoggerC5debug_4file8function4line7contextySSyXK_S2SSiypSgtFZ",
+            "mangledName": "$s10DeliverSDK6LoggerC5debug_4file8function4line7contextySSyXK_S2SSiypSgtFZ",
+            "moduleName": "DeliverSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:file:function:line:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10DeliverSDK6LoggerC4info_4file8function4line7contextySSyXK_S2SSiypSgtFZ",
+            "mangledName": "$s10DeliverSDK6LoggerC4info_4file8function4line7contextySSyXK_S2SSiypSgtFZ",
+            "moduleName": "DeliverSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:file:function:line:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10DeliverSDK6LoggerC5error_4file8function4line7contextySSyXK_S2SSiypSgtFZ",
+            "mangledName": "$s10DeliverSDK6LoggerC5error_4file8function4line7contextySSyXK_S2SSiypSgtFZ",
+            "moduleName": "DeliverSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fault",
+            "printedName": "fault(_:file:function:line:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10DeliverSDK6LoggerC5fault_4file8function4line7contextySSyXK_S2SSiypSgtFZ",
+            "mangledName": "$s10DeliverSDK6LoggerC5fault_4file8function4line7contextySSyXK_S2SSiypSgtFZ",
+            "moduleName": "DeliverSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10DeliverSDK6LoggerC",
+        "mangledName": "$s10DeliverSDK6LoggerC",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseOutput",
+        "printedName": "BaseOutput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "queue",
+            "printedName": "queue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DeliverSDK10BaseOutputC5queueSo012OS_dispatch_E0Cvp",
+            "mangledName": "$s10DeliverSDK10BaseOutputC5queueSo012OS_dispatch_E0Cvp",
+            "moduleName": "DeliverSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DeliverSDK10BaseOutputC5queueSo012OS_dispatch_E0Cvg",
+                "mangledName": "$s10DeliverSDK10BaseOutputC5queueSo012OS_dispatch_E0Cvg",
+                "moduleName": "DeliverSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultDateFormatter",
+            "printedName": "defaultDateFormatter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DateFormatter",
+                "printedName": "Foundation.DateFormatter",
+                "usr": "c:objc(cs)NSDateFormatter"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DeliverSDK10BaseOutputC20defaultDateFormatterSo06NSDateG0Cvp",
+            "mangledName": "$s10DeliverSDK10BaseOutputC20defaultDateFormatterSo06NSDateG0Cvp",
+            "moduleName": "DeliverSDK",
+            "declAttributes": [
+              "AccessControl",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateFormatter",
+                    "printedName": "Foundation.DateFormatter",
+                    "usr": "c:objc(cs)NSDateFormatter"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DeliverSDK10BaseOutputC20defaultDateFormatterSo06NSDateG0Cvg",
+                "mangledName": "$s10DeliverSDK10BaseOutputC20defaultDateFormatterSo06NSDateG0Cvg",
+                "moduleName": "DeliverSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateFormatter",
+                    "printedName": "Foundation.DateFormatter",
+                    "usr": "c:objc(cs)NSDateFormatter"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DeliverSDK10BaseOutputC20defaultDateFormatterSo06NSDateG0Cvs",
+                "mangledName": "$s10DeliverSDK10BaseOutputC20defaultDateFormatterSo06NSDateG0Cvs",
+                "moduleName": "DeliverSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DeliverSDK10BaseOutputC20defaultDateFormatterSo06NSDateG0CvM",
+                "mangledName": "$s10DeliverSDK10BaseOutputC20defaultDateFormatterSo06NSDateG0CvM",
+                "moduleName": "DeliverSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BaseOutput",
+                "printedName": "DeliverSDK.BaseOutput",
+                "usr": "s:10DeliverSDK10BaseOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BaseOutput",
+                "printedName": "DeliverSDK.BaseOutput",
+                "usr": "s:10DeliverSDK10BaseOutputC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10DeliverSDK10BaseOutputC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10DeliverSDK10BaseOutputC2eeoiySbAC_ACtFZ",
+            "moduleName": "DeliverSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10DeliverSDK10BaseOutputC4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10DeliverSDK10BaseOutputC4hash4intoys6HasherVz_tF",
+            "moduleName": "DeliverSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DeliverSDK10BaseOutputC9hashValueSivp",
+            "mangledName": "$s10DeliverSDK10BaseOutputC9hashValueSivp",
+            "moduleName": "DeliverSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DeliverSDK10BaseOutputC9hashValueSivg",
+                "mangledName": "$s10DeliverSDK10BaseOutputC9hashValueSivg",
+                "moduleName": "DeliverSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10DeliverSDK10BaseOutputC",
+        "mangledName": "$s10DeliverSDK10BaseOutputC",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsoleOutput",
+        "printedName": "ConsoleOutput",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsoleOutput",
+                "printedName": "DeliverSDK.ConsoleOutput",
+                "usr": "s:10DeliverSDK13ConsoleOutputC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10DeliverSDK13ConsoleOutputCACycfc",
+            "mangledName": "$s10DeliverSDK13ConsoleOutputCACycfc",
+            "moduleName": "DeliverSDK",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10DeliverSDK13ConsoleOutputC",
+        "mangledName": "$s10DeliverSDK13ConsoleOutputC",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:10DeliverSDK10BaseOutputC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "DeliverSDK.BaseOutput"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeliverLogOutput",
+        "printedName": "DeliverLogOutput",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeliverLogOutput",
+                "printedName": "DeliverSDK.DeliverLogOutput",
+                "usr": "s:10DeliverSDK0A9LogOutputC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10DeliverSDK0A9LogOutputCACycfc",
+            "mangledName": "$s10DeliverSDK0A9LogOutputCACycfc",
+            "moduleName": "DeliverSDK",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10DeliverSDK0A9LogOutputC",
+        "mangledName": "$s10DeliverSDK0A9LogOutputC",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:10DeliverSDK10BaseOutputC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "DeliverSDK.BaseOutput"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "DeliverSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSLogType",
+        "printedName": "OSLogType",
+        "declKind": "Struct",
+        "usr": "c:@EA@os_log_type_t",
+        "moduleName": "os",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 23,
+      "value": "\"DeliverSDK_DeliverSDK\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "Array",
+      "offset": 965,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1492,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1644,
+      "length": 51,
+      "value": "\"unable to find bundle named DeliverSDK_DeliverSDK\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/components\/Recorder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 311,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/components\/Recorder.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 22,
+      "value": "\"com.deliver.recorder\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/Context.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 33,
+      "value": "\"https:\/\/store.deliverapp.io\/api\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/Context.swift",
+      "kind": "StringLiteral",
+      "offset": 1695,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/Context.swift",
+      "kind": "StringLiteral",
+      "offset": 2152,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/Context.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2594,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/Context.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2872,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/DateDecodingStrategy+ISO.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/DateDecodingStrategy+ISO.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 28,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/DateDecodingStrategy+ISO.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/DateDecodingStrategy+ISO.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 27,
+      "value": "\"h:mm:ss a 'on' MM\/dd\/yyyy\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/DateDecodingStrategy+ISO.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 4,
+      "value": "\"AM\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/DateDecodingStrategy+ISO.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 4,
+      "value": "\"PM\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/DateDecodingStrategy+ISO.swift",
+      "kind": "StringLiteral",
+      "offset": 910,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/DateDecodingStrategy+ISO.swift",
+      "kind": "StringLiteral",
+      "offset": 960,
+      "length": 12,
+      "value": "\"MM\/dd\/yyyy\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/DateDecodingStrategy+ISO.swift",
+      "kind": "StringLiteral",
+      "offset": 1006,
+      "length": 4,
+      "value": "\"AM\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/DateDecodingStrategy+ISO.swift",
+      "kind": "StringLiteral",
+      "offset": 1044,
+      "length": 4,
+      "value": "\"PM\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/common\/Notification+Deliver.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 24,
+      "value": "\"authenticationRequired\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/AsyncImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1874,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/AsyncImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1922,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/AsyncImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1929,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/AsyncImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1936,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/AsyncImage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2322,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/AsyncImage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2383,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/AsyncImage.swift",
+      "kind": "StringLiteral",
+      "offset": 2571,
+      "length": 18,
+      "value": "\"image-processing\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/ImageDeliverButtonStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 8,
+      "value": "\"qrcode\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/PrimaryDeliverButtonStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 210,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/PrimaryDeliverButtonStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 13,
+      "value": "\"Hello world\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/SecondaryDeliverButtonStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 949,
+      "length": 8,
+      "value": "\"qrcode\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/SecondaryDeliverButtonStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 976,
+      "length": 13,
+      "value": "\"Hello world\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/TextField.swift",
+      "kind": "StringLiteral",
+      "offset": 1307,
+      "length": 14,
+      "value": "\"Hello worlda\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/components\/UserAvatar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 198,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/model\/User.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/modules\/scan\/QRCodeScannerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 9,
+      "value": "\"capture\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/modules\/scan\/QRCodeScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3605,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/modules\/signin\/SignInViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/modules\/signin\/SignInViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/modules\/signin\/SignInViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 342,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/core\/modules\/signin\/SignInViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 395,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Extensions\/UIStackView+Add.swift",
+      "kind": "BooleanLiteral",
+      "offset": 271,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Extensions\/UIStackView+Add.swift",
+      "kind": "BooleanLiteral",
+      "offset": 402,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Extensions\/UIView+Decorators.swift",
+      "kind": "FloatLiteral",
+      "offset": 320,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Extensions\/UIView+Decorators.swift",
+      "kind": "FloatLiteral",
+      "offset": 328,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Extensions\/UIView+Decorators.swift",
+      "kind": "FloatLiteral",
+      "offset": 374,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Extensions\/UIView+Decorators.swift",
+      "kind": "FloatLiteral",
+      "offset": 382,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Extensions\/UIView+Decorators.swift",
+      "kind": "Array",
+      "offset": 430,
+      "length": 6,
+      "value": "[0, 1]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Extensions\/UIView+Decorators.swift",
+      "kind": "IntegerLiteral",
+      "offset": 976,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Extensions\/UIView+Decorators.swift",
+      "kind": "FloatLiteral",
+      "offset": 1014,
+      "length": 4,
+      "value": "0.55"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Extensions\/UIView+Decorators.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1056,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Helpers\/Calculator.swift",
+      "kind": "FloatLiteral",
+      "offset": 302,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Helpers\/Calculator.swift",
+      "kind": "FloatLiteral",
+      "offset": 353,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Helpers\/Calculator.swift",
+      "kind": "FloatLiteral",
+      "offset": 410,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Model\/HoverConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 333,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Model\/HoverConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 380,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Model\/HoverConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 2017,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Model\/HoverConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 2065,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Model\/HoverConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2121,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Model\/HoverConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2131,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Model\/HoverConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2143,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Model\/HoverConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2154,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/Model\/HoverConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 2265,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 320,
+      "length": 4,
+      "value": "44.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 391,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 399,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 443,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 494,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 567,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 726,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 928,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 961,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 985,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 1367,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 1373,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverItemView.swift",
+      "kind": "FloatLiteral",
+      "offset": 333,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 312,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 364,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 407,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 456,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 505,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 557,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 606,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 676,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 684,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 971,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1082,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1369,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1445,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2017,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2285,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1863,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2627,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/hover\/UI\/HoverView.swift",
+      "kind": "Array",
+      "offset": 3090,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis+Manual.swift",
+      "kind": "Array",
+      "offset": 4115,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis+Manual.swift",
+      "kind": "Array",
+      "offset": 4180,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis+Manual.swift",
+      "kind": "Array",
+      "offset": 7143,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis+Manual.swift",
+      "kind": "Array",
+      "offset": 7212,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis.swift",
+      "kind": "Dictionary",
+      "offset": 850,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis.swift",
+      "kind": "Dictionary",
+      "offset": 930,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis.swift",
+      "kind": "StringLiteral",
+      "offset": 979,
+      "length": 17,
+      "value": "\"com.deliver.jam\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1169,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1346,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1555,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1730,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis.swift",
+      "kind": "StringLiteral",
+      "offset": 2266,
+      "length": 8,
+      "value": "\"1.23.0\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Atlantis.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3107,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/AtlantisHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1147,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/AtlantisHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1194,
+      "length": 8,
+      "value": "\"string\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/AtlantisHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2142,
+      "length": 30,
+      "value": "\"NSURLSessionWebSocketMessage\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/AtlantisHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2956,
+      "length": 96,
+      "value": "\"[DeliverJam] ❌ Error: Have NSURLSessionWebSocketMessage but can neither get data nor string.\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/ConsoleTransporter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 10,
+      "value": "10485760"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/ConsoleTransporter.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 25,
+      "value": "\"com.deliver.jam.console\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/ConsoleTransporter.swift",
+      "kind": "Array",
+      "offset": 579,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/ConsoleTransporter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 699,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5013,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8198,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8203,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8670,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8683,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8695,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8708,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8721,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8733,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9104,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9152,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9192,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9213,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9350,
+      "length": 4,
+      "value": "0x1f"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9369,
+      "length": 4,
+      "value": "0x8b"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9387,
+      "length": 4,
+      "value": "0x08"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9461,
+      "length": 7,
+      "value": "0b00010"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9472,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9514,
+      "length": 7,
+      "value": "0b00100"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9525,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9567,
+      "length": 7,
+      "value": "0b01000"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9578,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9620,
+      "length": 7,
+      "value": "0b10000"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9631,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9751,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9776,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9908,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9971,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10096,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10109,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10136,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10254,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10267,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10294,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10386,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12042,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "Array",
+      "offset": 13808,
+      "length": 3335,
+      "value": "[0x00000000, 0x77073096, 0xee0e612c, 0x990951ba, 0x076dc419, 0x706af48f, 0xe963a535, 0x9e6495a3, 0x0edb8832, 0x79dcb8a4, 0xe0d5e91e, 0x97d2d988, 0x09b64c2b, 0x7eb17cbd, 0xe7b82d07, 0x90bf1d91, 0x1db71064, 0x6ab020f2, 0xf3b97148, 0x84be41de, 0x1adad47d, 0x6ddde4eb, 0xf4d4b551, 0x83d385c7, 0x136c9856, 0x646ba8c0, 0xfd62f97a, 0x8a65c9ec, 0x14015c4f, 0x63066cd9, 0xfa0f3d63, 0x8d080df5, 0x3b6e20c8, 0x4c69105e, 0xd56041e4, 0xa2677172, 0x3c03e4d1, 0x4b04d447, 0xd20d85fd, 0xa50ab56b, 0x35b5a8fa, 0x42b2986c, 0xdbbbc9d6, 0xacbcf940, 0x32d86ce3, 0x45df5c75, 0xdcd60dcf, 0xabd13d59, 0x26d930ac, 0x51de003a, 0xc8d75180, 0xbfd06116, 0x21b4f4b5, 0x56b3c423, 0xcfba9599, 0xb8bda50f, 0x2802b89e, 0x5f058808, 0xc60cd9b2, 0xb10be924, 0x2f6f7c87, 0x58684c11, 0xc1611dab, 0xb6662d3d, 0x76dc4190, 0x01db7106, 0x98d220bc, 0xefd5102a, 0x71b18589, 0x06b6b51f, 0x9fbfe4a5, 0xe8b8d433, 0x7807c9a2, 0x0f00f934, 0x9609a88e, 0xe10e9818, 0x7f6a0dbb, 0x086d3d2d, 0x91646c97, 0xe6635c01, 0x6b6b51f4, 0x1c6c6162, 0x856530d8, 0xf262004e, 0x6c0695ed, 0x1b01a57b, 0x8208f4c1, 0xf50fc457, 0x65b0d9c6, 0x12b7e950, 0x8bbeb8ea, 0xfcb9887c, 0x62dd1ddf, 0x15da2d49, 0x8cd37cf3, 0xfbd44c65, 0x4db26158, 0x3ab551ce, 0xa3bc0074, 0xd4bb30e2, 0x4adfa541, 0x3dd895d7, 0xa4d1c46d, 0xd3d6f4fb, 0x4369e96a, 0x346ed9fc, 0xad678846, 0xda60b8d0, 0x44042d73, 0x33031de5, 0xaa0a4c5f, 0xdd0d7cc9, 0x5005713c, 0x270241aa, 0xbe0b1010, 0xc90c2086, 0x5768b525, 0x206f85b3, 0xb966d409, 0xce61e49f, 0x5edef90e, 0x29d9c998, 0xb0d09822, 0xc7d7a8b4, 0x59b33d17, 0x2eb40d81, 0xb7bd5c3b, 0xc0ba6cad, 0xedb88320, 0x9abfb3b6, 0x03b6e20c, 0x74b1d29a, 0xead54739, 0x9dd277af, 0x04db2615, 0x73dc1683, 0xe3630b12, 0x94643b84, 0x0d6d6a3e, 0x7a6a5aa8, 0xe40ecf0b, 0x9309ff9d, 0x0a00ae27, 0x7d079eb1, 0xf00f9344, 0x8708a3d2, 0x1e01f268, 0x6906c2fe, 0xf762575d, 0x806567cb, 0x196c3671, 0x6e6b06e7, 0xfed41b76, 0x89d32be0, 0x10da7a5a, 0x67dd4acc, 0xf9b9df6f, 0x8ebeeff9, 0x17b7be43, 0x60b08ed5, 0xd6d6a3e8, 0xa1d1937e, 0x38d8c2c4, 0x4fdff252, 0xd1bb67f1, 0xa6bc5767, 0x3fb506dd, 0x48b2364b, 0xd80d2bda, 0xaf0a1b4c, 0x36034af6, 0x41047a60, 0xdf60efc3, 0xa867df55, 0x316e8eef, 0x4669be79, 0xcb61b38c, 0xbc66831a, 0x256fd2a0, 0x5268e236, 0xcc0c7795, 0xbb0b4703, 0x220216b9, 0x5505262f, 0xc5ba3bbe, 0xb2bd0b28, 0x2bb45a92, 0x5cb36a04, 0xc2d7ffa7, 0xb5d0cf31, 0x2cd99e8b, 0x5bdeae1d, 0x9b64c2b0, 0xec63f226, 0x756aa39c, 0x026d930a, 0x9c0906a9, 0xeb0e363f, 0x72076785, 0x05005713, 0x95bf4a82, 0xe2b87a14, 0x7bb12bae, 0x0cb61b38, 0x92d28e9b, 0xe5d5be0d, 0x7cdcefb7, 0x0bdbdf21, 0x86d3d2d4, 0xf1d4e242, 0x68ddb3f8, 0x1fda836e, 0x81be16cd, 0xf6b9265b, 0x6fb077e1, 0x18b74777, 0x88085ae6, 0xff0f6a70, 0x66063bca, 0x11010b5c, 0x8f659eff, 0xf862ae69, 0x616bffd3, 0x166ccf45, 0xa00ae278, 0xd70dd2ee, 0x4e048354, 0x3903b3c2, 0xa7672661, 0xd06016f7, 0x4969474d, 0x3e6e77db, 0xaed16a4a, 0xd9d65adc, 0x40df0b66, 0x37d83bf0, 0xa9bcae53, 0xdebb9ec5, 0x47b2cf7f, 0x30b5ffe9, 0xbdbdf21c, 0xcabac28a, 0x53b39330, 0x24b4a3a6, 0xbad03605, 0xcdd70693, 0x54de5729, 0x23d967bf, 0xb3667a2e, 0xc4614ab8, 0x5d681b02, 0x2a6f2b94, 0xb40bbe37, 0xc30c8ea1, 0x5a05df1b, 0x2d02ef8d]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17703,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30414,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30418,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/JamTransporter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 10,
+      "value": "10485760"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/JamTransporter.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 25,
+      "value": "\"com.deliver.jam.network\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/JamTransporter.swift",
+      "kind": "Array",
+      "offset": 633,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/JamTransporter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 753,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/JamTransporter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 832,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/JamTransporter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 921,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 8,
+      "value": "\"resume\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 671,
+      "length": 34,
+      "value": "\"_swizzleURLSessionResumeSelector\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 1524,
+      "length": 133,
+      "value": "\"Could not get data from _swizzleURLSessionResumeSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 2844,
+      "length": 36,
+      "value": "\"_didReceiveResponse:sniff:rewrite:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 3042,
+      "length": 57,
+      "value": "\"_swizzleURLSessionDataTaskDidReceiveResponseWithRewrite\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 3817,
+      "length": 6,
+      "value": "\"task\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 4075,
+      "length": 161,
+      "value": "\"Could not get data from _swizzleURLSessionDataTaskDidReceiveResponseForIOS13AndLater. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 4509,
+      "length": 28,
+      "value": "\"_didReceiveResponse:sniff:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 4699,
+      "length": 60,
+      "value": "\"_swizzleURLSessionDataTaskDidReceiveResponseWithoutRewrite\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 5318,
+      "length": 6,
+      "value": "\"task\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 5559,
+      "length": 158,
+      "value": "\"Could not get data from _swizzleURLSessionDataTaskDidReceiveResponseForBelowIOS13. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 6111,
+      "length": 18,
+      "value": "\"_didReceiveData:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 6291,
+      "length": 42,
+      "value": "\"_swizzleURLSessionDataTaskDidReceiveData\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 6858,
+      "length": 6,
+      "value": "\"task\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 7072,
+      "length": 141,
+      "value": "\"Could not get data from _swizzleURLSessionDataTaskDidReceiveData. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 7614,
+      "length": 22,
+      "value": "\"_didFinishWithError:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 7798,
+      "length": 44,
+      "value": "\"_swizzleURLSessionTaskDidCompleteWithError\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 8371,
+      "length": 6,
+      "value": "\"task\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 8583,
+      "length": 143,
+      "value": "\"Could not get data from _swizzleURLSessionTaskDidCompleteWithError. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 9383,
+      "length": 33,
+      "value": "\"uploadTaskWithRequest:fromFile:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 9578,
+      "length": 42,
+      "value": "\"_swizzleURLSessionUploadFromFileSelector\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 10664,
+      "length": 133,
+      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 11097,
+      "length": 51,
+      "value": "\"uploadTaskWithRequest:fromFile:completionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 11310,
+      "length": 61,
+      "value": "\"_swizzleURLSessionUploadFromFileWithCompleteHandlerSelector\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 12452,
+      "length": 133,
+      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 12867,
+      "length": 33,
+      "value": "\"uploadTaskWithRequest:fromData:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 13062,
+      "length": 42,
+      "value": "\"_swizzleURLSessionUploadFromDataSelector\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 14077,
+      "length": 133,
+      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 14511,
+      "length": 51,
+      "value": "\"uploadTaskWithRequest:fromData:completionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 14724,
+      "length": 61,
+      "value": "\"_swizzleURLSessionUploadFromDataWithCompleteHandlerSelector\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 15764,
+      "length": 133,
+      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 16815,
+      "length": 32,
+      "value": "\"sendMessage:completionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 17009,
+      "length": 48,
+      "value": "\"_swizzleURLSessionWebSocketSendMessageSelector\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 18182,
+      "length": 147,
+      "value": "\"Could not get data from _swizzleURLSessionWebSocketSendMessageSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 18596,
+      "length": 38,
+      "value": "\"receiveMessageWithCompletionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 18796,
+      "length": 51,
+      "value": "\"_swizzleURLSessionWebSocketReceiveMessageSelector\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 19815,
+      "length": 150,
+      "value": "\"Could not get data from _swizzleURLSessionWebSocketReceiveMessageSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 20453,
+      "length": 33,
+      "value": "\"sendPingWithPongReceiveHandler:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 20648,
+      "length": 49,
+      "value": "\"_swizzleURLSessionWebSocketSendPingPongSelector\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 21502,
+      "length": 148,
+      "value": "\"Could not get data from _swizzleURLSessionWebSocketSendPingPongSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 21928,
+      "length": 29,
+      "value": "\"cancelWithCloseCode:reason:\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 22119,
+      "length": 62,
+      "value": "\"_swizzleURLSessionWebSocketCancelWithCloseCodeReasonSelector\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 23239,
+      "length": 161,
+      "value": "\"Could not get data from _swizzleURLSessionWebSocketCancelWithCloseCodeReasonSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/NetworkInjector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 385,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/PackageIdentifier.swift",
+      "kind": "IntegerLiteral",
+      "offset": 227,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "StringLiteral",
+      "offset": 1523,
+      "length": 24,
+      "value": "\"com.deliver.jam.atomic\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1920,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2481,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2504,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2525,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2554,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2584,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2606,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2633,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2663,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2692,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2724,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2756,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2777,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2802,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2830,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2858,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2884,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2907,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/jam\/Runtime.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2930,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/logger\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 796,
+      "length": 24,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ssZ\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/logger\/outputs\/DeliverLogOutput.swift",
+      "kind": "BooleanLiteral",
+      "offset": 359,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/logger\/outputs\/DeliverLogOutput.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/logger\/outputs\/DeliverLogOutput.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 28,
+      "value": "\"com.deliver.logger.network\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/model\/Device.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/modules\/issues\/EditIssueViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/modules\/issues\/EditIssueViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/modules\/issues\/EditIssueViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 695,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/DeliverSDK\/modules\/issues\/EditIssueViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 820,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 13,
+      "value": "\"AccentColor\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 12,
+      "value": "\"background\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 21,
+      "value": "\"background-selected\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1070,
+      "length": 8,
+      "value": "\"border\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1196,
+      "length": 6,
+      "value": "\"card\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1324,
+      "length": 8,
+      "value": "\"dBlack\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1452,
+      "length": 7,
+      "value": "\"dBlue\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1579,
+      "length": 7,
+      "value": "\"dGray\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1708,
+      "length": 8,
+      "value": "\"dGreen\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1846,
+      "length": 12,
+      "value": "\"dLightBlue\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1988,
+      "length": 12,
+      "value": "\"dLightGray\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2124,
+      "length": 9,
+      "value": "\"dOrange\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2257,
+      "length": 9,
+      "value": "\"dPurple\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2384,
+      "length": 6,
+      "value": "\"dRed\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2514,
+      "length": 9,
+      "value": "\"dYellow\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2691,
+      "length": 31,
+      "value": "\"primaryButtonBackgroundNormal\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2894,
+      "length": 33,
+      "value": "\"primaryButtonBackgroundSelected\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3099,
+      "length": 33,
+      "value": "\"secondaryButtonBackgroundNormal\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3308,
+      "length": 35,
+      "value": "\"secondaryButtonBackgroundSelected\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3476,
+      "length": 14,
+      "value": "\"text-primary\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3618,
+      "length": 11,
+      "value": "\"textLight\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3852,
+      "length": 6,
+      "value": "\"logo\""
+    },
+    {
+      "filePath": "\/Users\/bfrolicher\/Documents\/workspace\/personnal\/deliver\/DeliverSDK\/DeliverSDK\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DeliverSDK\/IntermediateBuildFilesPath\/DeliverSDK.build\/Release-iphoneos\/DeliverSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4019,
+      "length": 29,
+      "value": "\"logo-deliver-small-1024x300\""
+    }
+  ]
+}
